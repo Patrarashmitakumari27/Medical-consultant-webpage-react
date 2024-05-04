@@ -1,0 +1,52 @@
+.Side-Bar{
+     height: 100%;
+     width: 100px;
+     background-color: white;
+     padding: 5px;
+}
+.Dashboard-Icon{
+  height: 50px;
+  width:98px;
+  background-color: #f5f5f5;
+  margin-top: 2px;
+  padding-top: 10px;
+  text-align: center;
+  opacity: 0.7;
+  box-shadow:  8px black;
+}
+.Dashboard-Icon:hover{
+  background-color: green;
+}
+.Dashboard-Icon h5 {
+  font-size: small;
+  opacity: 0.7;
+}
+.Icons {
+  font-size: 1.5em;
+}
+#Phrama {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 10px;
+}
+#Patients {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 10px;
+}
+#Registration {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 10px;
+}
+#Billing {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 10px;
+}
+.Dashboard-p {
+  opacity: 0.5;
+}
+.Processess-p {
+  opacity: 0.5;
+}

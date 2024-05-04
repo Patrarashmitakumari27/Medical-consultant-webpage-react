@@ -1,0 +1,119 @@
+.cards {
+  display: flex;
+  text-align: center;
+  height: 100px;
+  background-color: transparent;
+  width: 100%;
+}
+.card-1 {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  height: 60px;
+  background-color: white;
+  width: 260px;
+  padding: 10px;
+  margin-right: 22px;
+  margin-left: 10px;
+  border-left: 5px solid rgba(231, 164, 104,0.7);
+}
+.card-2 {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  height: 60px;
+  background-color: white;
+  width: 260px;
+  padding: 10px;
+  margin-right: 22px;
+  margin-left: 10px;
+  border-left: 5px solid rgba(187, 187, 223,0.7);
+}
+.card-3 {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  height: 60px;
+  background-color: white;
+  width: 260px;
+  padding: 10px;
+  margin-right: 22px;
+  margin-left: 10px;
+  border-left: 5px solid rgba(162, 207, 162,0.7);
+}
+.card-4 {
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  height: 60px;
+  background-color: white;
+  width: 260px;
+  padding: 10px;
+  margin-right: 22px;
+  margin-left: 10px;
+  border-left: 5px solid rgba(212, 157, 212,0.7);
+}
+.cardlogo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+}
+.logo-1{
+  padding-top: 15px;
+  font-size: 1.1em;
+}
+#cardlogo-1 {
+  background-color:  rgb(231, 164, 104);
+  opacity: 0.7;
+}
+#cardlogo-2 {
+  background-color:  rgb(187, 187, 223);
+  opacity: 0.7;
+}
+#cardlogo-3 {
+  background-color:  rgb(162, 207, 162);
+  opacity: 0.7;
+}
+#cardlogo-4 {
+  background-color:  rgb(212, 157, 212);
+  opacity: 0.7;
+}
+.card-1:hover {
+   border-left: 5px solid  rgb(216, 141, 75);
+}
+.card-2:hover {
+  border-left: 5px solid blueviolet;
+}
+.card-3:hover {
+  border-left: 5px solid green;
+}
+.card-4:hover {
+  border-left: 5px solid violet;
+}
+.cards h4 {
+  color: green;
+}
+.cards h3 {
+  color: gray;
+}
+.cards p {
+  color: gray;
+}
+.card-1:hover #cardlogo-1{
+  background-color:  rgb(221, 122, 36);
+  opacity: 1;
+}
+.card-2:hover #cardlogo-2{
+  background-color:  blueviolet;
+  opacity: 1;
+}
+.card-3:hover #cardlogo-3{
+  background-color:  green;
+  opacity: 1;
+}
+.card-4:hover #cardlogo-4{
+  background-color:  violet;
+  opacity: 1;
+}
